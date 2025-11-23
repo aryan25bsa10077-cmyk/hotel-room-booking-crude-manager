@@ -1,5 +1,8 @@
-# hotel-room-booking-crude-manager
+# This project is a simple CRUD (Create, Read, Update, Delete) application built using Python's Tkinter library for the graphical user interface (GUI). It is designed to manage hotel room bookings, allowing a user to easily add new bookings, view existing ones, update booking details, and delete records.
+
+All booking data is persisted in a local JSON file named bookings.json, making the application stateful and allowing data to be retained between sessions.
 room booking process
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 import json
